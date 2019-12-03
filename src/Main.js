@@ -7,6 +7,7 @@ import {
 import Home from "./Home";
 import Australia from "./Australia";
 import Turkey from "./Turkey";
+import Ireland from "./Ireland";
 import About from "./About";
 
 
@@ -21,6 +22,7 @@ class Main extends Component {
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/australia">Australia</NavLink></li>
             <li><NavLink to="/turkey">Turkey</NavLink></li>
+            <li><NavLink to="/ireland">Ireland</NavLink></li>
             <li><NavLink to="/about">About</NavLink></li>
 
           </ul>
@@ -28,6 +30,7 @@ class Main extends Component {
             <Route exact path="/" component={Home}/>
             <Route exact path="/australia" component={Australia}/>
             <Route exact path="/turkey" component={Turkey}/>
+            <Route exact path="/ireland" component={Ireland} />
             <Route exact path="/about" component={About}/>
           </div>
         </div>
