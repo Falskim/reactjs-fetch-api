@@ -1,4 +1,9 @@
+Latihan Fetch Data API ReactJS
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Source Tutorial
+[ReactJS : Fetching Data API](http://tulisan.andriputra.com/reactjs-fetching-data-api/)
 
 ## Available Scripts
 
